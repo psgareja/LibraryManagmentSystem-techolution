@@ -26,6 +26,7 @@ Code Structure
 
 1. Clone the repository: git clone https://github.com/psgareja/LibraryManagmentSystem-techolution.git
    
-2.cd library-management-system  
+2. cd LibraryManagmentSystem-techolution
+
 3. Run Code
   python main.py
