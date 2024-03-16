@@ -2,25 +2,31 @@
 Code Structure 
 
 .
+
 .
 
-├── main.py
+.
 
-├── book.py
+.
 
-├── user.py
+ ...main.py
 
-├── checkout.py
+ ...book.py
 
-├── checkin.py
+ ...user.py
 
-├── storage.py
+ ...checkout.py
 
-├── models.py
+...checkin.py
 
-├── books.json
+...storage.py
 
-└── users.json
+ ..models.py
+
+ ...books.json
+ 
+ ...users.json
+
 
 ## Installation
 
