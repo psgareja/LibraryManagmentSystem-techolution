@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Find Your Ways",
+        "author": "PG",
+        "isbn": "0134444321",
+        "available": true
+    },
+    {
+        "title": "No More Love",
+        "author": "GP",
+        "isbn": "1787125933",
+        "available": true
+    },
+    {
+        "title": "You are Great",
+        "author": "Pradii",
+        "isbn": "1491912058",
+        "available": false
+    }
+]

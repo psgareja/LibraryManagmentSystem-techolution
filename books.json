@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Book",
+        "author": "ppp",
+        "isbn": "123467454",
+        "available": true
+    },
+    {
+        "title": "No More Love",
+        "author": "GP",
+        "isbn": "2312345",
+        "available": true
+    },
+    {
+        "title": "More Love",
+        "author": "PG",
+        "isbn" : "534342332",
+        "available": false
+    }
+
+]
