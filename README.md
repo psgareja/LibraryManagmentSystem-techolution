@@ -24,7 +24,7 @@ Code Structure
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/your-username/library-management-system.git
+1. Clone the repository: git clone https://github.com/psgareja/library-management-system.git
    
 2.cd library-management-system  
 3. Run Code
