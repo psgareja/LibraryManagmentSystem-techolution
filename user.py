@@ -1,5 +1,6 @@
 #@User information class 
 class User:
+    #@Constructor method to initialize a User object with given name and user ID.
     def __init__(self, name, user_id):
         self.name = name
         self.user_id = user_id

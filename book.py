@@ -1,5 +1,6 @@
 #@Book Information
 class Book:
+    #@Constructor method to initialize a Book object with given title, author, and ISBN.
     def __init__(self, title, author, isbn):
         self.title = title
         self.author = author

@@ -1,5 +1,5 @@
 #@Checkout class
-class Checkout:
+class Check:
     @staticmethod
     def checkout_book(library, user_id, isbn):
         for book in library.books:

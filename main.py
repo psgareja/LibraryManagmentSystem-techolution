@@ -2,7 +2,7 @@ from book import Book
 from user import User
 from storage import Storage
 from library import Library
-from check import Checkout
+from check import Check
 
 def main_menu():
     print("\nLibrary Management System")
@@ -74,13 +74,13 @@ def main():
         elif choice == '7':
             user_id = input("Enter user ID: ")
             isbn = input("Enter ISBN of the book to checkout: ")
-            if Checkout.checkout_book(library, user_id, isbn):
+            if Check.checkout_book(library, user_id, isbn):
                 print("Book checked out.")
             else:
                 print("Book not available or ISBN/user ID incorrect.")
         elif choice == '8':
             isbn = input("Enter ISBN of the book to checkin: ")
-            if Checkout.checkin_book(library, isbn):
+            if Check.checkin_book(library, isbn):
                 print("Book checked in.")
             else:
                 print("Book with given ISBN not found.")
