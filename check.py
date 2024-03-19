@@ -1,5 +1,6 @@
 #@Checkout class
 class Check:
+    #@checkout_book(library, user_id, isbn): Checks out a book from the library for a given 
     @staticmethod
     def checkout_book(library, user_id, isbn):
         for book in library.books:
@@ -12,6 +13,7 @@ class Check:
                     return False
         return False
 
+    #@checkout_book(library, user_id, isbn): Checks out a book from the library for a given 
     @staticmethod
     def checkin_book(library, isbn):
         for book in library.books:

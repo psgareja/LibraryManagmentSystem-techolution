@@ -48,7 +48,8 @@ class Library:
     #@search_users(self, keyword): Searches for users in the library based on a keyword (name or user ID).
     def search_books(self, keyword):
         return [book for book in self.books if keyword.lower() in book.title.lower() or keyword.lower() in book.author.lower() or keyword.lower() in book.isbn.lower()]
-
+   
+    #@add_user(self, book): Adds a user to the database.
     def add_user(self, name, user_id):
         user = User(name, user_id)
         self.users.append(user)
